@@ -51,7 +51,7 @@ AWS::S3::Parsing.parser =
     require_library_or_gem 'xml/libxml'
     # Older version of libxml aren't stable (bus error when requesting attributes that don't exist) so we
     # have to use a version greater than '0.3.8.2'.
-    raise LoadError unless XML::Parser::VERSION > '0.3.8.2'
+    raise LoadError unless LibXML::XML::Parser::VERSION > '0.3.8.2'
     $:.push(File.join(File.dirname(__FILE__), '..', '..', 'support', 'faster-xml-simple', 'lib'))
     require_library_or_gem 'faster_xml_simple' 
     FasterXmlSimple

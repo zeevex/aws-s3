@@ -5,7 +5,6 @@ spec = Gem::Specification.new do |s|
   s.description       = "Client library for Amazon's Simple Storage Service's REST API"
   s.email             = 'marcel@vernix.org'
   s.author            = 'Marcel Molina Jr.'
-  s.has_rdoc          = true
   s.extra_rdoc_files  = %w(README COPYING INSTALL)
   s.homepage          = 'http://amazon.rubyforge.org'
   s.rubyforge_project = 'amazon'

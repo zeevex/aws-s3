@@ -1,3 +1,5 @@
+# encoding: BINARY
+# for ruby 2.0 - see http://www.jasondemeuse.com/blog/blog-article/amazon-s3-gem-invalid-multibyte-escape6
 #:stopdoc:
 
 class Hash

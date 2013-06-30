@@ -7,6 +7,6 @@ module AWS
       BETA     = Time.now.to_i.to_s
     end
     
-    Version = [VERSION::MAJOR, VERSION::MINOR, VERSION::TINY, VERSION::BETA].compact * '.'
+    Version = [VERSION::MAJOR, VERSION::MINOR, VERSION::TINY, VERSION::BETA, 'zeevex'].compact * '.'
   end
 end
